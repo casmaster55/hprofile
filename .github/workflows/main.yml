@@ -10,5 +10,5 @@ jobs:
       - name: Maven test 
         run: mvn test 
 
-      - name: checkout  
+      - name: Checkstyle  
         run: mvn checkout
